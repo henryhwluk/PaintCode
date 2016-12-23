@@ -14,6 +14,7 @@
 		B8AFDE8F1E0CF0EC00162DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8AFDE8E1E0CF0EC00162DFA /* Assets.xcassets */; };
 		B8AFDE921E0CF0EC00162DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8AFDE901E0CF0EC00162DFA /* LaunchScreen.storyboard */; };
 		B8AFDE9B1E0CF16300162DFA /* LaunchViewTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AFDE9A1E0CF16300162DFA /* LaunchViewTwitter.m */; };
+		B8AFDEC91E0D685900162DFA /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AFDEC81E0D685900162DFA /* LaunchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		B8AFDE931E0CF0EC00162DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8AFDE991E0CF16300162DFA /* LaunchViewTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewTwitter.h; sourceTree = "<group>"; };
 		B8AFDE9A1E0CF16300162DFA /* LaunchViewTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewTwitter.m; sourceTree = "<group>"; };
+		B8AFDEC71E0D685900162DFA /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		B8AFDEC81E0D685900162DFA /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				B8AFDE821E0CF0EC00162DFA /* Supporting Files */,
 				B8AFDE991E0CF16300162DFA /* LaunchViewTwitter.h */,
 				B8AFDE9A1E0CF16300162DFA /* LaunchViewTwitter.m */,
+				B8AFDEC71E0D685900162DFA /* LaunchViewController.h */,
+				B8AFDEC81E0D685900162DFA /* LaunchViewController.m */,
 			);
 			path = PaintCode;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				B8AFDE8A1E0CF0EC00162DFA /* ViewController.m in Sources */,
 				B8AFDE871E0CF0EC00162DFA /* AppDelegate.m in Sources */,
 				B8AFDE841E0CF0EC00162DFA /* main.m in Sources */,
+				B8AFDEC91E0D685900162DFA /* LaunchViewController.m in Sources */,
 				B8AFDE9B1E0CF16300162DFA /* LaunchViewTwitter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
