@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homePage" translatesAutoresizingMaskIntoConstraints="NO" id="Ewk-q8-enu">
+                                <rect key="frame" x="0.0" y="-2" width="600" height="602"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ewk-q8-enu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-22" id="Aov-KF-aM0"/>
+                            <constraint firstItem="Ewk-q8-enu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="nJd-2N-gkh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ewk-q8-enu" secondAttribute="bottom" id="o0K-h0-T5h"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ewk-q8-enu" secondAttribute="trailing" constant="-20" id="r8E-uQ-4AP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="136"/>
+        </scene>
+        <!--Test View Controller-->
+        <scene sceneID="pId-KM-IkC">
+            <objects>
+                <viewController id="WC3-4y-31n" customClass="testViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rcs-8c-Euz"/>
+                        <viewControllerLayoutGuide type="bottom" id="E6P-nd-0hJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TcS-0X-8Zi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GAn-GP-imB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="773" y="180"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="homePage" width="640" height="1136"/>
+    </resources>
+</document>
