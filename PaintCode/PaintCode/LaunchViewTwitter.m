@@ -40,7 +40,7 @@
     self.launchView.center = self.center;
     [self addSubview:self.launchView];
     CAShapeLayer *layer = [[CAShapeLayer alloc]init];
-    layer.path = [self BezierPath].CGPath;
+    layer.path = [self bezierPath].CGPath;
     layer.bounds = CGPathGetBoundingBox(layer.path);
     self.backgroundColor = [UIColor colorWithRed:0.18 green:0.70 blue:0.90 alpha:1.0];
     layer.position = CGPointMake(self.launchView.bounds.size.width / 2, self.launchView.bounds.size.height/ 2);
@@ -49,7 +49,7 @@
     
     [self performSelector:@selector(startLaunch) withObject:nil afterDelay:1.0];
 }
--(UIBezierPath *)BezierPath
+-(UIBezierPath *)bezierPath
 {
     //// Color Declarations
     UIColor* color1 = [UIColor colorWithRed: 0.521 green: 0.521 blue: 0.521 alpha: 1];
